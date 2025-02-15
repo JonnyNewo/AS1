@@ -79,16 +79,16 @@ D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are
 _______________________________________________________________________________________________________________________________________________
 ARGUMENTS LIST:
 
-Blender Launch                                                                '-b'
-EXAMPLE:
+Blender Launch................................................................. '-b'
+    EXAMPLE:
         s:/DOPPLE/AS1/MODEL_PARSE.py -b'
 
-Blender Export                                                                '-be'
-EXAMPLE:
+Blender Export................................................................. '-be'
+    EXAMPLE:
         's:/DOPPLE/AS1/MODEL_PARSE.py -be'
 
-Custom Output Destination                                                     '-d [your desired system path]'
-EXAMPLE:
+Custom Output Destination...................................................... '-d [your desired system path]'
+    EXAMPLE:
         's:/DOPPLE/AS1/MODEL_PARSE.py -d s:/OTHER_PROJECT_LOCATION'
 
 
@@ -99,7 +99,8 @@ The AS1 Model Parse Script has a few built in things it does that are (hopefully
 seen Blender, the script both scales the model up to 1.0 from the default (which is quite small), and it also toggles on the 'Material Preview'
 so that you see the model and it's corresponding texture immediately after Blender is opened, rather than having to toggle it of yourself. 
 Another action the script takes automatically is to remove the default cube that's part of a default Blender scene. These are just a few 
-examples, and again, they are actions carried out by the script automatically to better align with a typical Blender. 
+examples, and again, they are actions carried out by the script automatically to better align with how a typical user interacts with Blender
+in a creative capacity. 
 
 _______________________________________________________________________________________________________________________________________________
 SCREENSHOTS:
