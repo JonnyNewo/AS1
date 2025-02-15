@@ -35,21 +35,21 @@ There are several ways to run the AS1 script, depending on your needs. The 'STEP
 _______________________________________________________________________________________________________________________________________________
 STEPS:
 
-A) Download the model you wish to work with to your local machine.
+STEP A) Download the model you wish to work with to your local machine.
  
-B) After you have your model downloaded locally, place the desired model's directory in the 'SAMPLE_MODEL' directory.
+STEP B) After you have your model downloaded locally, place the desired model's directory in the 'SAMPLE_MODEL' directory.
 
-C) Decide which scenario fits your needs and/or workflow requirements:
+STEP C) Decide which scenario fits your needs and/or workflow requirements:
     
-__1) Run organization pass on model only. (non-Blender)
+___________1) Run organization pass on model only. (non-Blender)
     
-__2) Run organization pass on model, then open in Blender to begin a workflow. (no export included)
+___________2) Run organization pass on model, then open in Blender to begin a workflow. (no export included)
     
-__3) Run organization pass on model, then export from Blender using standard export settings. 
+___________3) Run organization pass on model, then export from Blender using standard export settings. 
     
-__4) Run organization pass on model, export from Blender using standard export settings and output to specified directory.
+___________4) Run organization pass on model, export from Blender using standard export settings and output to specified directory.
 
-__D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are described below):
+STEP D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are described below):
 
 
 ____#1) Standard Organization Pass:
