@@ -40,29 +40,39 @@ A) Download the model you wish to work with to your local machine.
 B) After you have your model downloaded locally, place the desired model's directory in the 'SAMPLE_MODEL' directory.
 
 C) Decide which scenario fits your needs and/or workflow requirements:
-    1) Run organization pass on model only. (non-Blender)
-    2) Run organization pass on model, then open in Blender to begin a workflow. (no export included)
-    3) Run organization pass on model, then export from Blender using standard export settings. 
-    4) Run organization pass on model, export from Blender using standard export settings and output to specified directory.
+    
+__1) Run organization pass on model only. (non-Blender)
+    
+__2) Run organization pass on model, then open in Blender to begin a workflow. (no export included)
+    
+__3) Run organization pass on model, then export from Blender using standard export settings. 
+    
+__4) Run organization pass on model, export from Blender using standard export settings and output to specified directory.
 
-D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are described below):
+__D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are described below):
 
 
 ____#1) Standard Organization Pass:
   Type: Non-Blender Use-Case (Vanilla)
+
   Argument: N/A
+
   Details: The 'Standard Organization Pass' includes *no* arguments, and only organizes the model's structure (both .gltf itself, as well as
   the .json file).
-    EXAMPLE: 
+    
+EXAMPLE: 
     's:/DOPPLE/AS1/MODEL_PARSE.py'
 
 ____#2) Standard Organization Pass *with* Blender Launch:
   Type: Blender Workflow Use-Case
+  
   Argument: '-b'
+  
   Details: The 'Standard Pass with Blender Launch' first organizes your .gltf model files, opens the model in Blender, and then halts so that
   you may begin a workflow within Blender (which could include the use of a specific plugin or toolset). It is assumed that you will choose 
   your own export options later, since they will differ depending on your workflow(s) and/or any plugins used. 
-    NOTE: If *only* want to export from within Blender after the organization and do *not* want to run a workflow, 
+    
+  NOTE: If *only* want to export from within Blender after the organization and do *not* want to run a workflow, 
           then use scenario #3), which is: 'Standard Organizaiton Pass with Blender Export'.   
 
 ____#3) Standard Organizaiton Pass *with* Blender Export:
@@ -82,17 +92,17 @@ ____#4) Custom Output Location:
 _______________________________________________________________________________________________________________________________________________
 ARGUMENTS LIST:
 
-Blender Launch................................................................. '-b'
-    EXAMPLE:
-        s:/DOPPLE/AS1/MODEL_PARSE.py -b'
+Blender Launch: '-b'
+    
+EXAMPLE:  s:/DOPPLE/AS1/MODEL_PARSE.py -b'
 
-Blender Export................................................................. '-be'
-    EXAMPLE:
-        's:/DOPPLE/AS1/MODEL_PARSE.py -be'
+Blender Export: '-be'
 
-Custom Output Destination...................................................... '-d [your desired system path]'
-    EXAMPLE:
-        's:/DOPPLE/AS1/MODEL_PARSE.py -d s:/OTHER_PROJECT_LOCATION'
+EXAMPLE:  's:/DOPPLE/AS1/MODEL_PARSE.py -be'
+
+Custom Output Destination: '-d [your desired system path]'
+    
+EXAMPLE:  's:/DOPPLE/AS1/MODEL_PARSE.py -d s:/OTHER_PROJECT_LOCATION'
 
 
 _______________________________________________________________________________________________________________________________________________
