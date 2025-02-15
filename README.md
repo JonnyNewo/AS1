@@ -96,9 +96,13 @@ Blender Launch: '-b'
     
 EXAMPLE:  s:/DOPPLE/AS1/MODEL_PARSE.py -b'
 
+
+
 Blender Export: '-be'
 
 EXAMPLE:  's:/DOPPLE/AS1/MODEL_PARSE.py -be'
+
+
 
 Custom Output Destination: '-d [your desired system path]'
     
