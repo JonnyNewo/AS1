@@ -35,17 +35,20 @@ There are several ways to run the AS1 script, depending on your needs. The 'STEP
 _______________________________________________________________________________________________________________________________________________
 STEPS:
 
-A) Download the model you wish to work with to your local machine. 
+A) Download the model you wish to work with to your local machine.
+ 
 B) After you have your model downloaded locally, place the desired model's directory in the 'SAMPLE_MODEL' directory.
+
 C) Decide which scenario fits your needs and/or workflow requirements:
     1) Run organization pass on model only. (non-Blender)
     2) Run organization pass on model, then open in Blender to begin a workflow. (no export included)
     3) Run organization pass on model, then export from Blender using standard export settings. 
     4) Run organization pass on model, export from Blender using standard export settings and output to specified directory.
+
 D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are described below):
 
 
-  #1) Standard Organization Pass:
+____#1) Standard Organization Pass:
   Type: Non-Blender Use-Case (Vanilla)
   Argument: N/A
   Details: The 'Standard Organization Pass' includes *no* arguments, and only organizes the model's structure (both .gltf itself, as well as
@@ -53,7 +56,7 @@ D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are
     EXAMPLE: 
     's:/DOPPLE/AS1/MODEL_PARSE.py'
 
-  #2) Standard Organization Pass *with* Blender Launch:
+____#2) Standard Organization Pass *with* Blender Launch:
   Type: Blender Workflow Use-Case
   Argument: '-b'
   Details: The 'Standard Pass with Blender Launch' first organizes your .gltf model files, opens the model in Blender, and then halts so that
@@ -62,14 +65,14 @@ D) Run the 'MODEL_PARSE.py' script either with, or without, arguments (which are
     NOTE: If *only* want to export from within Blender after the organization and do *not* want to run a workflow, 
           then use scenario #3), which is: 'Standard Organizaiton Pass with Blender Export'.   
 
-  #3) Standard Organizaiton Pass *with* Blender Export:
+____#3) Standard Organizaiton Pass *with* Blender Export:
   Type: Blender Export Only Use-Case
   Argument: '-be'
   Details: 'Standard Organizaiton Pass with Blender Export' will open the model in Blender, perform a few helpful viewport toggles, and then
   export using default settings for .gltf. It's worth noting that Blender does not exit after the export if finished, but stays open until
   you close it.
 
-  #4) Custom Output Location:
+____#4) Custom Output Location:
   Type: Blender Export Custom Location Use-Case
   Argument: '-r'
   Details: This argument is not intended to be run by itself, but in combination with a proceeding argument related to Blender usage. After 
